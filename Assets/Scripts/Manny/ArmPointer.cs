@@ -7,7 +7,7 @@ public class ArmPointer : MonoBehaviour {
 	Animator anim;
 	// Use this for initialization
 	void Start () {
-		anim = GetComponent<Animator>();
+		anim = manny.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame

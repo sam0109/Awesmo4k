@@ -1,8 +1,15 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\ArmPointer.cs">
     <Files>
       <File FileName="Assets\Scripts\Manny\ArmPointer.cs" Line="10" Column="3" />
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Tree\Assets\GrowTree.cs">
+    <Files>
+      <File FileName="..\..\..\Tree\Assets\GrowTree.cs" Line="22" Column="11" />
+>>>>>>> 86abacfbdfe300b55e7958fd2f94b9a1ea48c5ea
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

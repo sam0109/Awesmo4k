@@ -16,6 +16,6 @@ public class Bullet : MonoBehaviour {
 		if (coll.gameObject.tag == "Enemy") {
 			coll.gameObject.SendMessage ("Damage", 2f);
 		}
-		Destroy (gameObject, .05f);
+		Destroy (gameObject, 2f);
 	}
 }

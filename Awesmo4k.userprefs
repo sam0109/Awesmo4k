@@ -1,15 +1,11 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\ArmPointer.cs">
     <Files>
-      <File FileName="Assets\Scripts\Manny\ArmPointer.cs" Line="10" Column="3" />
-=======
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Tree\Assets\GrowTree.cs">
-    <Files>
-      <File FileName="..\..\..\Tree\Assets\GrowTree.cs" Line="22" Column="11" />
->>>>>>> 86abacfbdfe300b55e7958fd2f94b9a1ea48c5ea
+      <File FileName="Assets\Scripts\Gun1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bullet.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\Manny\MannyMover.cs" Line="44" Column="1" />
+      <File FileName="Assets\Scripts\Manny\ArmPointer.cs" Line="35" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

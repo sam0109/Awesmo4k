@@ -4,9 +4,10 @@ using System.Collections;
 public class ArmPointer : MonoBehaviour {
 	public GameObject manny;
 	bool direction = true;
+	Animator anim;
 	// Use this for initialization
 	void Start () {
-	
+		anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -28,5 +29,6 @@ public class ArmPointer : MonoBehaviour {
 		else if(direction == true && mousePos.x < 0f){
 			direction = false;
 		}
+		anim.SetBool("Direction", direction);
 	}
 }

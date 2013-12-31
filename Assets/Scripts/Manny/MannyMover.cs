@@ -30,10 +30,8 @@ public class MannyMover : MonoBehaviour {
 		if(Input.GetKey("d") && rigidbody2D.velocity.x < moveSpeed){
 			rigidbody2D.AddForce(right * accelSpeed * Time.deltaTime);
 		}
-		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
-		anim.speed = Mathf.Abs(rigidbody2D.velocity.x * .2f) + .1f;
-
-
+		anim.SetFloat("Speed", rigidbody2D.velocity.x);
+		anim.speed = (Mathf.Max(Mathf.Abs(rigidbody2D.velocity.x * .2F), .1F));
 	}
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Ground")

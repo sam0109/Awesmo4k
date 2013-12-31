@@ -23,12 +23,11 @@ public class ArmPointer : MonoBehaviour {
 		float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 		transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
-		if (direction == false && mousePos.x > 0f) {
+		if (mousePos.x > 0f)
 			direction = true;
-		}
-		else if(direction == true && mousePos.x < 0f){
+		else
 			direction = false;
-		}
+		print(direction);
 		anim.SetBool("Direction", direction);
 	}
 }

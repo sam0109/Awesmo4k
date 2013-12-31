@@ -31,6 +31,7 @@ public class MannyMover : MonoBehaviour {
 			rigidbody2D.AddForce(right * accelSpeed * Time.deltaTime);
 		}
 		anim.SetFloat("Speed", rigidbody2D.velocity.x);
+		anim.SetBool("Jumping", !onGround);
 		anim.speed = (Mathf.Max(Mathf.Abs(rigidbody2D.velocity.x * .2F), .1F));
 	}
 	void OnCollisionEnter2D(Collision2D coll) {

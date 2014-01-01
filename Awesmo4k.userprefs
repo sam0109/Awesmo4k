@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\MannyMover.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\MannyCam.cs">
     <Files>
-      <File FileName="Assets\Scripts\Gun1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gun1.cs" Line="19" Column="1" />
       <File FileName="Assets\Scripts\Bullet.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Manny\MannyMover.cs" Line="19" Column="3" />
-      <File FileName="Assets\Scripts\Manny\ArmPointer.cs" Line="30" Column="20" />
-      <File FileName="Assets\Scripts\Manny\MannyCam.cs" Line="17" Column="1" />
+      <File FileName="Assets\Scripts\Manny\MannyMover.cs" Line="37" Column="34" />
+      <File FileName="Assets\Scripts\Manny\ArmPointer.cs" Line="29" Column="22" />
+      <File FileName="Assets\Scripts\Manny\MannyCam.cs" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\Manny\MannyStats.cs" Line="36" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

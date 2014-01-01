@@ -27,7 +27,6 @@ public class ArmPointer : MonoBehaviour {
 			direction = true;
 		else
 			direction = false;
-		print(direction);
 		anim.SetBool("Direction", direction);
 	}
 }

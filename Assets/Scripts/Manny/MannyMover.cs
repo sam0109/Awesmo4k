@@ -12,6 +12,10 @@ public class MannyMover : MonoBehaviour {
 	bool onGround = false;
 	Animator anim;
 
+	public void playFootstep () {
+		audio.Play ();
+	}
+
 	void Start () {
 		anim = GetComponent<Animator>();
 	}
@@ -21,6 +25,7 @@ public class MannyMover : MonoBehaviour {
 		if(Input.GetKeyDown("space") && onGround == true){
 			rigidbody2D.AddForce(up * jumpHeight);
 			onGround = false;
+			playFootstep ();
 		}
 		if(Input.GetKey("a") && rigidbody2D.velocity.x > -moveSpeed){
 			rigidbody2D.AddForce(left * accelSpeed * Time.deltaTime);
@@ -43,8 +48,10 @@ public class MannyMover : MonoBehaviour {
 		anim.speed = (Mathf.Max(Mathf.Abs(rigidbody2D.velocity.x * .2F), .1F));
 	}
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Ground")
+		if (coll.gameObject.tag == "Ground") {
 			onGround = true;
+			playFootstep ();
+		}
 		
 	}
 }

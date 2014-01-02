@@ -15,7 +15,7 @@ public class TitleScreen : MonoBehaviour {
 	}
 	void OnGUI() {
 		if (GUI.Button (new Rect (Screen.width/2 - 75, Screen.height/2 - 50, 150, 100), "Start", button))
-			Application.LoadLevel ("Level1");
+			Application.LoadLevel ("Bedroom");
 		
 	}
 }

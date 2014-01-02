@@ -7,14 +7,14 @@ public class MannyCam : MonoBehaviour {
 	public GameObject Manny;
 	public GUIStyle healthBar;
 	float health;
-	// Use this for initialization
-	void Start () {
+	MannyStats Stats;
 	
+	void Start () {
+		Stats = Manny.GetComponent<MannyStats>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		health = Manny.GetComponent<MannyStats>().health / 100;
+		health = Stats.health / 100;
 	}
 
 	void OnGUI() {

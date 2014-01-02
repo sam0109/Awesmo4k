@@ -5,7 +5,7 @@ public class ArmPointer : MonoBehaviour {
 	public GameObject manny;
 	bool direction = true;
 	Animator anim;
-	// Use this for initialization
+
 	void Start () {
 		anim = manny.GetComponent<Animator>();
 	}

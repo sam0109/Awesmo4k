@@ -20,7 +20,7 @@ public class damageText : MonoBehaviour {
 	void Update () {
 		if (alpha > 0f){
 			scrolled += scroll*Time.deltaTime;
-			transform.position = Camera.main.WorldToViewportPoint(new Vector3(originalTransform.x, originalTransform.y, originalTransform.z));
+			transform.position = Camera.main.WorldToViewportPoint(originalTransform);
 			transform.position += new Vector3(0, scrolled, 0);
 			alpha -= Time.deltaTime/duration; 
 			color.a = alpha;

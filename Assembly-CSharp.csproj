@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GUI\ChatDialogue.cs" />
      <Compile Include="Assets\Scripts\Bed.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\DeathScreen.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\Scripts\Manny\MannyMover.cs" />
      <Compile Include="Assets\Scripts\Manny\MannyStats.cs" />
      <Compile Include="Assets\Scripts\Manny\damageText.cs" />
+     <Compile Include="Assets\Scripts\NPCs\Dummy.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\TitleScreen.cs" />
   </ItemGroup>

@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\MannyMover.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manny\SkyMover.cs">
     <Files>
-      <File FileName="Assets\Scripts\oneWayPlatform.cs" Line="16" Column="34" />
+      <File FileName="Assets\Scripts\oneWayPlatform.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Bullet.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Gun1.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NextLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Bed.cs" Line="13" Column="15" />
-      <File FileName="Assets\Scripts\Manny\MannyMover.cs" Line="53" Column="25" />
+      <File FileName="Assets\Scripts\Bed.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Manny\MannyMover.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Manny\SkyMover.cs" Line="19" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

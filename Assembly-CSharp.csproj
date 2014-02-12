@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Manny\MannyCam.cs" />
      <Compile Include="Assets\Scripts\Manny\MannyMover.cs" />
      <Compile Include="Assets\Scripts\Manny\MannyStats.cs" />
+     <Compile Include="Assets\Scripts\Manny\SkyMover.cs" />
      <Compile Include="Assets\Scripts\Manny\damageText.cs" />
      <Compile Include="Assets\Scripts\NPCs\Dummy.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
